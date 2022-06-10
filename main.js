@@ -57,7 +57,7 @@ let btnHoldFunction = function (e) {
   document.querySelector(`#score--${activePlayer}`).textContent =
     scores[activePlayer];
 
-  if (scores[activePlayer] > 100) {
+  if (scores[activePlayer] > 99) {
     document
       .querySelector(`.player--${activePlayer}`)
       .classList.remove("player--active");
